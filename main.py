@@ -1,9 +1,12 @@
-# A starter command line program for Python
+input ("x")
+y = 23
 
-print("What is your name?")
-name = input()
-
-if name == "Jon":
-  print("Go away, Jon!")
+if x > 50:
+  x = 5
+  if y < 20:
+    x = 3
 else:
-  print("Hello, " + name + "!")
+  x = 2
+  y = 10
+
+print(x + y)
